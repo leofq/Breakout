@@ -136,7 +136,7 @@ void Ball::update(float dt)
 
 void Ball::render()
 {
-
+    // draw the trail
     for (auto& circle : _trail) {
         _window->draw(circle);
     }
